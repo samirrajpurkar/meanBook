@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.use('/', function (req, res){
-  console.log(req.path);
+  console.log();
   res.send("First App....");
 });
 
